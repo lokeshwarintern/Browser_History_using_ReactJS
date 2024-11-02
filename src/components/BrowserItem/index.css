@@ -1,0 +1,72 @@
+.logo-ele {
+  height: 25px;
+}
+
+.time-ele {
+  color: #64748b;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.logo-domain-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-ele {
+  background-color: transparent;
+  border-width: 0px;
+  height: 20px;
+  width: 20px;
+}
+
+.title-domain-card {
+  margin-left: 12px;
+  margin-bottom: 0px;
+}
+
+.span-ele {
+  color: #64748b;
+  font-family: Roboto;
+}
+
+@media screen and (min-width: 576px) {
+  .list-ele {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .br-ele {
+    display: none;
+  }
+
+  .logo-domain-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 80px;
+    width: 100%;
+  }
+  .title-domain-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .span-ele {
+    margin-left: 20px;
+  }
+
+  .time-ele {
+    width: 250px;
+  }
+}
